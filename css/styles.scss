@@ -1,0 +1,65 @@
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+$link-decoration: none;
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "../node_modules/bootstrap/scss/variables";
+
+// 4. Include any default map overrides here
+$custom-colors: (
+	"farve": $cyan-400,
+);
+
+$primary: #000000;
+$secondary: #fff;
+$third: #eece1a;
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "bootstrapComponents";
+
+// 5. Du kan lave styling her...
+
+main {
+	padding: 4rem;
+	min-height: calc(100vh - 60px); }
+main .icons {
+	margin-top: 1rem; }
+main .icons a {
+	padding: 0.4rem;
+	color: $secondary;}
+main .icons a:hover {
+	color: #eece1a;
+	transition: all 0.5s ease-out; }
+main#home {
+	overflow: hidden; }
+
+main .h2{
+	background: rgba(73, 73, 73, 0.5)
+}
+
+body {
+	background-color: $primary;
+	font-family: Bahnschrift, sans-serif;
+	color: #fff;
+	background-image: url("../img/bg3.png");
+	background-position: right;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100vh;
+	filter: opacity(50);
+}
+
+
+
+h1 {
+	font-weight: 400;
+	font-size: 4rem;
+}
+
+.sec-text{
+	color: $third;
+}
