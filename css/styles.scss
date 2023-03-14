@@ -15,6 +15,7 @@ $custom-colors: (
 $primary: #000000;
 $secondary: #fff;
 $third: #eece1a;
+$menu-color: #444444FF;
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
@@ -63,3 +64,6 @@ h1 {
 .sec-text{
 	color: $third;
 }
+
+// Menu
+

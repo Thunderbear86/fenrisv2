@@ -18,6 +18,10 @@
 
 <body>
 
+<nav>
+    <?php include 'menu.php';?>
+</nav>
+
 <main id="home">
 
 <div class="container-fluid">
@@ -54,12 +58,16 @@
 
 </div>
 
+<footer>
+    <?php include 'footer.php';?>
+</footer>
+
 </main>
 
 
 
+<!-- Bootstrap -->
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
 
 
 </body>
