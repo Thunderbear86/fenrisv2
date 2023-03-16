@@ -18,6 +18,7 @@
 
 <body>
 
+
 <nav>
     <?php include 'menu.php';?>
 </nav>
@@ -33,7 +34,7 @@
             </h1>
         </div>
 
-        <h2>\\ Kodning <span class="sec-text">\\ Design</span> <span class="sec-text">\\</span> Marketing \\</h2>
+        <h2>\\ Kodning <span class="sec-text">\\ Design</span> <span class="sec-text">\\</span> SoMe \\</h2>
 
     </div>
 
@@ -65,9 +66,13 @@
 </main>
 
 
+<!-- Java Menu -->
+<script src="js/main.js"></script>
 
 <!-- Bootstrap -->
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
 
 
 </body>
