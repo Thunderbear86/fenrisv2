@@ -31,22 +31,22 @@ echo '<header>
       </div>
       <ul class="menu-nav">
         <li class="nav-item current">
-          <a href="index.html" class="nav-link">
+          <a href="index.php" class="nav-link">
             Forside
           </a>
         </li>
         <li class="nav-item">
-          <a href="about.html" class="nav-link">
+          <a href="about.php" class="nav-link">
             Om Fenris
           </a>
         </li>
         <li class="nav-item">
-          <a href="work.html" class="nav-link">
-            Se Portfolio
+          <a href="work.php" class="nav-link">
+            Portfolio
           </a>
         </li>
         <li class="nav-item">
-          <a href="contact.html" class="nav-link">
+          <a href="kontakt.php" class="nav-link">
             Kontakt
           </a>
         </li>
