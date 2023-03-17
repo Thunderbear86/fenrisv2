@@ -16,7 +16,7 @@
 
 </head>
 
-<body>
+<body id="bg-img">
 
 
 <nav>
