@@ -23,47 +23,67 @@
     <?php include 'menu.php';?>
 </nav>
 
-<main id="home">
+<main>
+    <h1 class="lg-heading">
+        Thorbjørn
+        <span class="sec-text">Wagner</span>
+    </h1>
+    <h2 class="sm-heading">
+        <span class="sec-text">Kort</span> om mig...
+    </h2>
+    <div class="about-info">
+        <img src="img/portrait_small-01.jpg" alt="Thorbjørn Wagner" class="bio-image">
 
-    <div class="container-fluid">
-
-        <div class="row g-3">
-            <div class="col-12 col-md-4 col-xl-3 mt-">
-                <h1 style="margin-top: 20vh;">Thorbjørn
-                    <span class="sec-text">Wagner</span>
-                </h1>
-            </div>
-
-            <h2>\\ Kodning <span class="sec-text">\\ Design</span> <span class="sec-text">\\</span> SoMe \\</h2>
-
+        <div class="bio">
+            <h3 class="sec-text">BIO</h3>
+            <p>
+                <li>Interesser og Erfaring</li>
+                <li>Multimediedesigner</li>
+                <li>Social- & Specialpædagog</li>
+                <li>Eventsikkerhed & Personbeskyttelse</li>
+            </p>
         </div>
 
-
-
-        <div class="row g-3">
-            <div class="icons">
-                <a href="#">
-                    <i class="fab fa-twitter fa-2x"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-facebook fa-2x"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-linkedin fa-2x"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-github fa-2x"></i>
-                </a>
-            </div>
+        <div class="job job-1">
+            <h3>Kodning</h3>
+            <h6 class="sec-text">Html - Css - Java</h6>
+            <p>
+                <li>Unik Specialdesignet Hjemmeside</li>
+                <li>Wordpress Hjemmeside</li>
+                <li>Vedligeholdelse & Opdatering</li>
+            </p>
         </div>
 
+        <div class="job job-2">
+            <h3>Design</h3>
+            <h6 class="sec-text">
+                Grafisk & Digitalt Design
+            </h6>
+            <p>
+                <li>AI Generering</li>
+                <li>Fotokomposition</li>
+                <li>Vector</li>
+                <li>Foto</li>
+            </p>
+        </div>
+
+        <div class="job job-3">
+            <h3>SoMe</h3>
+            <h6 class="sec-text">Marketing & Branding</h6>
+            <p>
+                <li>Mock-Ups</li>
+                <li>Strategi</li>
+                <li>Kampagner</li>
+            </p>
+        </div>
     </div>
 
-    <footer>
-        <?php include 'footer.php';?>
-    </footer>
 
 </main>
+
+<footer>
+    <?php include 'footer.php';?>
+</footer>
 
 
 <!-- Java Menu -->

@@ -59,11 +59,11 @@
 
 </div>
 
+</main>
+
 <footer>
     <?php include 'footer.php';?>
 </footer>
-
-</main>
 
 
 <!-- Java Menu -->

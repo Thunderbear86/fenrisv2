@@ -37,7 +37,7 @@ echo '<header>
         </li>
         <li class="nav-item">
           <a href="about.php" class="nav-link">
-            Om Fenris
+            Om Mig
           </a>
         </li>
         <li class="nav-item">

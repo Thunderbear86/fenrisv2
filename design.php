@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Fenris - Kontakt</title>
+    <title>Fenris - Design</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Thorbjørn 'Thunderbear' Wagner">
@@ -23,15 +23,18 @@
     <?php include 'menu.php';?>
 </nav>
 
+
+
 <main>
 
     <h1 style="margin-top: 20vh;">
-        Projekt
+        Design
         <span class="sec-text">Grid</span>
     </h1>
 
 
     <h2>\\ Fotorealisme <span class="sec-text">\\ Vector Realisme</span> <span class="sec-text">\\</span> Vector Cartoon \\</h2>
+
 
 
     <!-- Gallery -->
@@ -40,9 +43,9 @@
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
 
             <img
-                    src="img/port/viking.png"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="viking"
+                src="img/port/viking.png"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="viking"
             />
 
             <img
@@ -65,27 +68,27 @@
         <div class="col-lg-4 mb-4 mb-lg-0">
 
             <img
-                    src="img/port/Plakat1.jpg"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Plakat"
+                src="img/port/Plakat1.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Plakat"
             />
 
             <img
-                    src="img/car/car1.jpg"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Lady In Pink"
+                src="img/car/car1.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Lady In Pink"
             />
 
             <img
-                    src="img/port/t2.png"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Tounge out 2"
+                src="img/port/t2.png"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Tounge out 2"
             />
 
             <img
-                    src="img/port/tof14.jpg"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Tounge out"
+                src="img/port/tof14.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Tounge out"
             />
 
             <img
@@ -107,40 +110,39 @@
             />
 
             <img
-                    src="img/Fabeldyr bæltedyr-01.png"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Bæltedyr"
+                src="img/Fabeldyr bæltedyr-01.png"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Bæltedyr"
             />
 
             <img
-                    src="img/opgave%2021%2011%2022-01.jpg"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Drage"
+                src="img/opgave%2021%2011%2022-01.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Drage"
             />
 
             <img
-                    src="img/port/sword.png"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Sværd"
+                src="img/port/sword.png"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Sværd"
             />
 
             <img
-                    src="img/hotdogs-01.png"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Hotdogs"
+                src="img/hotdogs-01.png"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Hotdogs"
             />
 
         </div>
 
 
     </div>
-    <!-- Gallery -->
-
-    <footer>
-        <?php include 'footer.php';?>
-    </footer>
 
 </main>
+
+<footer>
+    <?php include 'footer.php';?>
+</footer>
 
 
 <!-- Java Menu -->
