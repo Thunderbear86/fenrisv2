@@ -27,13 +27,15 @@
 
 <main>
 
-    <h1 style="margin-top: 20vh;">
+    <h1 style="margin-top: 10vh;">
         Design
         <span class="sec-text">Grid</span>
     </h1>
 
 
-    <h2>\\ Fotorealisme <span class="sec-text">\\ Vector Realisme</span> <span class="sec-text">\\</span> Vector Cartoon \\</h2>
+    <h2 class="mb-4 plink">
+        \\ <a href="Kodning.php" class="plink">Kodning</a> \\<a href="design.php" class="plink"> <span class="sec-text">Design</span></a> \\ <a href="SoMe.php" class="plink">SoMe</a> \\
+    </h2>
 
 
 

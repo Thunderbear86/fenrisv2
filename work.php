@@ -30,7 +30,7 @@
 
         <div class="row g-3">
             <div class="col-12 col-md-4 col-xl-3 mt-">
-                <h1 style="margin-top: 20vh;">Thorbjørn
+                <h1 style="margin-top: 10vh;">Thorbjørn
                     <span class="sec-text">Wagner</span>
                 </h1>
             </div>
