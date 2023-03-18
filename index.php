@@ -34,7 +34,9 @@
             </h1>
         </div>
 
-        <h2>\\ Kodning <span class="sec-text">\\ Design</span> <span class="sec-text">\\</span> SoMe \\</h2>
+        <h2 class="mb-4 plink">
+            \\ <a href="Kodning.php" class="plink">Kodning</a> \\<a href="design.php" class="plink">Design</a> \\ <a href="SoMe.php" class="plink">SoMe</a> \\
+        </h2>
 
     </div>
 

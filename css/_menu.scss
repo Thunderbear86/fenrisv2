@@ -45,6 +45,7 @@
   width: 100%;
   opacity: 0.9;
   visibility: hidden;
+  z-index:2;
 
   &.show {
     visibility: visible;

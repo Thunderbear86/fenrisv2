@@ -26,20 +26,34 @@
 
 <main id="home">
 
-    <div class="container-fluid">
+    <h1 style="margin-top: 10vh;">
+        Portfolio
+        <span class="sec-text">Oversigt</span>
+    </h1>
 
-        <div class="row g-3">
-            <div class="col-12 col-md-4 col-xl-3 mt-">
-                <h1 style="margin-top: 10vh;">Thorbjørn
-                    <span class="sec-text">Wagner</span>
-                </h1>
+    <h2 class="sm-heading">
+        <span class="sec-text">Fenris</span> \\ Branding & Udvikling \\
+    </h2>
+
+    <!-- Service Section -->
+
+    <div class="services">
+
+        <div class="services__container">
+            <div class="card">
+                <h2>Kodning</h2>
+                <p class="sec-text">Html - CSS - Java</p>
             </div>
-
-            <h2>\\ Kodning <span class="sec-text">\\ Design</span> <span class="sec-text">\\</span> SoMe \\</h2>
-
+            <div class="card">
+                <h2>Design</h2>
+                <p class="sec-text">Vector - AI - Photoshop</p>
+            </div>
+            <div class="card">
+                <h2>SoMe</h2>
+                <p class="sec-text">Planlægning og Udførsel</p>
+            </div>
         </div>
-
-
+    </div>
 
         <div class="row g-3">
             <div class="icons">
