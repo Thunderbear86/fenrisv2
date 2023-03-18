@@ -39,19 +39,28 @@
 
     <div class="services">
 
+        <a href="Kodning.php">
         <div class="services__container">
             <div class="card">
                 <h2>Kodning</h2>
                 <p class="sec-text">Html - CSS - Java</p>
             </div>
-            <div class="card">
+        </a>
+
+            <a href="design.php">
+                <div class="card">
                 <h2>Design</h2>
                 <p class="sec-text">Vector - AI - Photoshop</p>
             </div>
+            </a>
+
+        <a href="SoMe.php">
             <div class="card">
                 <h2>SoMe</h2>
                 <p class="sec-text">Planlægning og Udførsel</p>
             </div>
+        </a>
+
         </div>
     </div>
 

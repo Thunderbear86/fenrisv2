@@ -26,7 +26,7 @@
 
 <main>
     <h1 style="margin-top: 10vh;">
-        Mine
+        SoMe
         <span class="sec-text">Kampagner</span>
     </h1>
     <h2 class="mb-4 plink">
