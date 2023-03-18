@@ -25,6 +25,15 @@
 
 <main>
 
+    <h1 style="margin-top: 20vh;">
+        Projekt
+        <span class="sec-text">Grid</span>
+    </h1>
+
+
+    <h2>\\ Fotorealisme <span class="sec-text">\\ Vector Realisme</span> <span class="sec-text">\\</span> Vector Cartoon \\</h2>
+
+
     <!-- Gallery -->
     <div class="row">
         <!-- 1 AI & Foto -->
