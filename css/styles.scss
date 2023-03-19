@@ -14,7 +14,7 @@ $custom-colors: (
 
 $primary: #000000;
 $secondary: #fff;
-$third: #4B0082;
+$third: #9B4ED8;
 $menu-color: #444444FF;
 $Dblack: #0b0c0b;
 
@@ -39,7 +39,7 @@ main .icons a {
 	padding: 0.4rem;
 	color: $secondary;}
 main .icons a:hover {
-	color: #eece1a;
+	color: $third;
 	transition: all 0.5s ease-out; }
 main#home {
 	overflow: hidden; }
