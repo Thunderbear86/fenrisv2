@@ -24,6 +24,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 
 @import "menu";
+@import "mediaq";
 @import "bootstrapComponents";
 
 
