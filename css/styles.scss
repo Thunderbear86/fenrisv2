@@ -336,3 +336,31 @@ h1 {
 	font-size: 18px;
 	font-weight: bold;
 }
+
+// Kontakt
+
+.boxes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 1rem; }
+.boxes div {
+	font-size: 2rem;
+	border: 3px #fff solid;
+	padding: 1.5rem 2.5rem;
+	margin-bottom: 3rem;
+	transition: all 0.5s ease-out; }
+.boxes div:hover {
+	padding: 0.5rem 1.5rem;
+	background: $third;
+	color: $Dblack; }
+.boxes div:hover span {
+	color: $Dblack; }
+
+// Form
+
+.btn-custom {
+	background-color: $menu-color;
+	color: #ffffff;
+}

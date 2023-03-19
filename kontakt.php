@@ -23,41 +23,59 @@
     <?php include 'menu.php';?>
 </nav>
 
-<main id="home">
+<main id="contact">
+    <h1 class="lg-heading">
+        Kontakt
+    </h1>
 
-    <div class="container-fluid">
+    <h2 class="sm-heading">
+        <span class="sec-text">Mig Her</span>
+    </h2>
 
-        <div class="row g-3">
-            <div class="col-12 col-md-4 col-xl-3 mt-">
-                <h1 style="margin-top: 20vh;">Thorbjørn
-                    <span class="sec-text">Wagner</span>
-                </h1>
+    <?php include 'ikoner.php';?>
+
+    <div class="container">
+        <div class="boxes">
+            <div>
+                <span class="sec-text">Email: </span> thorbjoern@fenris.dk
+            </div>
+            <div>
+                <span class="sec-text">Telefon: </span> +45
             </div>
 
-            <h2>\\ Kodning <span class="sec-text">\\ Design</span> <span class="sec-text">\\</span> SoMe \\</h2>
-
         </div>
-
-
-
-        <div class="row g-3">
-            <div class="icons">
-                <a href="#">
-                    <i class="fab fa-twitter fa-2x"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-facebook fa-2x"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-linkedin fa-2x"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-github fa-2x"></i>
-                </a>
-            </div>
-        </div>
-
     </div>
+
+    <div class="container">
+        <form class="col-sm-8 offset-sm-2" action="submit_form.php" method="POST">
+            <div class="form-group">
+                <label for="navn">Navn</label>
+                <input type="text" class="form-control" id="navn" name="navn" placeholder="Indtast dit navn" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Indtast din email" required>
+            </div>
+            <div class="form-group">
+                <label for="telefon">Telefon</label>
+                <input type="tel" class="form-control" id="telefon" name="telefon" placeholder="Indtast dit nummer">
+            </div>
+            <div class="form-group">
+                <label for="emne">Emne</label>
+                <input type="text" class="form-control" id="emne" name="emne" placeholder="Indtast emnet for din besked">
+            </div>
+            <div class="form-group">
+                <label for="besked">Besked</label>
+                <textarea class="form-control" id="besked" name="besked" rows="3" placeholder="Indtast din besked"></textarea>
+                <br>
+            </div>
+            <button type="submit" class="btn btn-custom">Send</button>
+        </form>
+    </div>
+
+
+
+
 
     <footer>
         <?php include 'footer.php';?>
