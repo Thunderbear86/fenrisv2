@@ -43,7 +43,7 @@
             <a href="#" class="btn-light">
                 <i class="fas fa-eye"></i> Se Mere
             </a>
-            <a href="#" class="btn-dark">
+            <a href="https://github.com/Thunderbear86/fenrisv2.git" class="btn-dark">
                 <i class="fab fa-github"></i> Github
             </a>
         </div>
