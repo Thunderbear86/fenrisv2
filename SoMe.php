@@ -30,8 +30,10 @@
         <span class="sec-text">Kampagner</span>
     </h1>
     <h2 class="mb-4 plink">
-        \\<a href="design.php" class="plink">Kodning</a>\\<a href="design.php" class="plink"> Design</a> \\ <a href="SoMe.php" class="plink"><span class="sec-text">SoMe</span></a> \\
+        \\<a href="Kodning.php" class="plink"> Kodning </a>\\<a href="design.php" class="plink"> Design</a> \\ <a href="SoMe.php" class="plink"><span class="sec-text">SoMe</span></a> \\
     </h2>
+
+    <?php include 'ikoner.php';?>
 
     <div class="projects">
         <div>

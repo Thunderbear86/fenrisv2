@@ -37,6 +37,7 @@
         \\ <a href="Kodning.php" class="plink">Kodning</a> \\<a href="design.php" class="plink"> <span class="sec-text">Design</span></a> \\ <a href="SoMe.php" class="plink">SoMe</a> \\
     </h2>
 
+    <?php include 'ikoner.php';?>
 
 
     <!-- Gallery -->

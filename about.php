@@ -28,9 +28,11 @@
         Thorbjørn
         <span class="sec-text">Wagner</span>
     </h1>
-    <h2 class="sm-heading">
-        <span class="sec-text">Kort</span> om mig...
-    </h2>
+    <!-- Icons -->
+
+    <?php include 'ikoner.php';?>
+
+    <!-- Indhold -->
     <div class="about-info">
         <img src="img/portrait_small-01.jpg" alt="Thorbjørn Wagner" class="bio-image">
 
@@ -80,10 +82,6 @@
 
 
 </main>
-
-<footer>
-    <?php include 'footer.php';?>
-</footer>
 
 
 <!-- Java Menu -->

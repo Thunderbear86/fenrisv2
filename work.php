@@ -32,56 +32,56 @@
     </h1>
 
     <h2 class="sm-heading">
-        <span class="sec-text">Fenris</span> \\ Branding & Udvikling \\
+        \\ Branding & Udvikling \\
     </h2>
 
-    <!-- Service Section -->
+    <?php include 'ikoner.php';?>
 
-    <div class="services">
+    <!-- Kort Port-->
 
-        <a href="Kodning.php">
-        <div class="services__container">
-            <div class="card">
-                <h2>Kodning</h2>
-                <p class="sec-text">Html - CSS - Java</p>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="tile mb-4 rounded-circle">
+                    <a href="Kodning.php">
+                        <div class="tile-image">
+                            <img src="img/kodning/fenris.png" alt="Kodning" class="img-fluid">
+                        </div>
+                        <div class="tile-title">
+                            <h5 class="text-center">Kodning</h5>
+                        </div>
+                    </a>
+                </div>
             </div>
-        </a>
-
-            <a href="design.php">
-                <div class="card">
-                <h2>Design</h2>
-                <p class="sec-text">Vector - AI - Photoshop</p>
+            <div class="col-sm-4">
+                <div class="tile mb-4 rounded-circle">
+                    <a href="design.php">
+                        <div class="tile-image">
+                            <img src="img/port/viking.png" alt="Design" class="img-fluid">
+                        </div>
+                        <div class="tile-title">
+                            <h5 class="text-center">Design</h5>
+                        </div>
+                    </a>
+                </div>
             </div>
-            </a>
-
-        <a href="SoMe.php">
-            <div class="card">
-                <h2>SoMe</h2>
-                <p class="sec-text">Planlægning og Udførsel</p>
+            <div class="col-sm-4">
+                <div class="tile mb-4 rounded-circle">
+                    <a href="SoMe.php">
+                        <div class="tile-image">
+                            <img src="img/some/#" alt="SoMe" class="img-fluid">
+                        </div>
+                        <div class="tile-title">
+                            <h5 class="text-center">SoMe</h5>
+                        </div>
+                    </a>
+                </div>
             </div>
-        </a>
-
         </div>
     </div>
 
-        <div class="row g-3">
-            <div class="icons">
-                <a href="#">
-                    <i class="fab fa-twitter fa-2x"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-facebook fa-2x"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-linkedin fa-2x"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-github fa-2x"></i>
-                </a>
-            </div>
-        </div>
 
-    </div>
+    <!-- Footer -->
 
     <footer>
         <?php include 'footer.php';?>
