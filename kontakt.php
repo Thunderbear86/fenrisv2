@@ -24,12 +24,13 @@
 </nav>
 
 <main id="contact">
-    <h1 class="lg-heading">
-        Kontakt
+    <h1 class="lg-heading" style="margin-top: 10vh;">
+        Kontakt <span class="sec-text">Mig</span>
+
     </h1>
 
     <h2 class="sm-heading">
-        Mig <span class="sec-text">Her</span>
+
     </h2>
 
     <?php include 'ikoner.php';?>

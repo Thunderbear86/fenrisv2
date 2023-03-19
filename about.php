@@ -24,7 +24,7 @@
 </nav>
 
 <main>
-    <h1 class="lg-heading">
+    <h1 class="lg-heading" style="margin-top: 10vh;">
         Thorbjørn
         <span class="sec-text">Wagner</span>
     </h1>
