@@ -29,7 +29,7 @@
     </h1>
 
     <h2 class="sm-heading">
-        <span class="sec-text">Mig Her</span>
+        Mig <span class="sec-text">Her</span>
     </h2>
 
     <?php include 'ikoner.php';?>
@@ -72,10 +72,6 @@
             <button type="submit" class="btn btn-custom">Send</button>
         </form>
     </div>
-
-
-
-
 
     <footer>
         <?php include 'footer.php';?>
