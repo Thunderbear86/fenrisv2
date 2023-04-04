@@ -11,7 +11,7 @@
 
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
     <script src="https://kit.fontawesome.com/ef424bfb92.js" crossorigin="anonymous"></script>
 
 </head>
@@ -19,21 +19,26 @@
 <body>
 
 
-<nav>
-    <?php include 'menu.php';?>
-</nav>
-
+<div class="container">
+    <div class="row">
+        <nav>
+            <?php include 'menu.php';?>
+        </nav>
+    </div>
+</div>
 
 <main>
-    <h1 style="margin-top: 10vh;">
+    <h1 class="text-center" style="margin-top: 10vh;">
         Mine
         <span class="sec-text">Referencer</span>
     </h1>
-    <h2 class="mb-4 plink">
-        \\<a href="Kodning.php" class="plink"><span class="sec-text"> Kodning </span></a>\\<a href="design.php" class="plink"> Design</a> \\ <a href="SoMe.php" class="plink">SoMe</a> \\
+    <h2 class="mb-4 plink text-center">
+        \\<a href="Kodning.php" class="plink"><span class="sec-text"> Kodning </span></a>\\<a href="design.php" class="plink"> Design</a> \\ <a href="foto.php" class="plink">Foto</a> \\
     </h2>
 
-    <?php include 'ikoner.php';?>
+    <div class="text-center">
+        <?php include 'ikoner.php';?>
+    </div>
 
     <div class="projects">
         <div>

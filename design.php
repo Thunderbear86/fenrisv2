@@ -11,7 +11,7 @@
 
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
     <script src="https://kit.fontawesome.com/ef424bfb92.js" crossorigin="anonymous"></script>
 
 </head>
@@ -19,25 +19,30 @@
 <body class="port">
 
 
-<nav>
-    <?php include 'menu.php';?>
-</nav>
-
+<div class="container">
+    <div class="row">
+        <nav>
+            <?php include 'menu.php';?>
+        </nav>
+    </div>
+</div>
 
 
 <main>
 
-    <h1 style="margin-top: 10vh;">
-        Design
-        <span class="sec-text">Grid</span>
+    <h1 class="text-center" style="margin-top: 10vh;">
+        Grafisk
+        <span class="sec-text">Design</span>
     </h1>
 
 
-    <h2 class="mb-4 plink">
-        \\ <a href="Kodning.php" class="plink">Kodning</a> \\<a href="design.php" class="plink"> <span class="sec-text">Design</span></a> \\ <a href="SoMe.php" class="plink">SoMe</a> \\
+    <h2 class="mb-4 plink text-center">
+        \\ <a href="Kodning.php" class="plink">Kodning</a> \\<a href="design.php" class="plink"> <span class="sec-text">Design</span></a> \\ <a href="foto.php" class="plink">Foto</a> \\
     </h2>
 
-    <?php include 'ikoner.php';?>
+    <div class="text-center">
+        <?php include 'ikoner.php';?>
+    </div>
 
 
     <!-- Gallery -->
@@ -61,6 +66,18 @@
                 src="img/bg3.png"
                 class="w-100 shadow-1-strong rounded mb-4"
                 alt="AI Wolf 2"
+            />
+
+            <img
+                src="img/port/op.png"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="RL Onix"
+            />
+
+            <img
+                src="img/port/sp.png"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Skelet Portal"
             />
 
 
@@ -113,7 +130,7 @@
             />
 
             <img
-                src="img/Fabeldyr bæltedyr-01.png"
+                src="img/Fabeldyr%20bæltedyr-01.png"
                 class="w-100 shadow-1-strong rounded mb-4"
                 alt="Bæltedyr"
             />

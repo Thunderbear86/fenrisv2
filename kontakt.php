@@ -11,43 +11,38 @@
 
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
     <script src="https://kit.fontawesome.com/ef424bfb92.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
 
-
+<div class="container">
+    <div class="row">
 <nav>
     <?php include 'menu.php';?>
 </nav>
+    </div>
+</div>
 
 <main id="contact">
-    <h1 class="lg-heading" style="margin-top: 10vh;">
-        Kontakt <span class="sec-text">Mig</span>
 
-    </h1>
+    <h1 class="lg-heading text-center" style="margin-top: 10vh;">Kontakt</h1>
 
-    <h2 class="sm-heading">
-
-    </h2>
-
+<div class="text-center">
     <?php include 'ikoner.php';?>
+</div>
 
-    <div class="container">
-        <div class="boxes">
-            <div>
-                <span class="sec-text">Email: </span> thorbjoern@fenris.dk
-            </div>
-            <div>
-                <span class="sec-text">Telefon: </span> +45
-            </div>
-
+    <div class="contaier">
+        <div class="row">
+            <h2 class="sec-text text-center">
+Relevant tekst her
+            </h2>
         </div>
     </div>
 
-    <div class="container">
+<div class="container pb-3">
         <form class="col-sm-8 offset-sm-2" action="submit_form.php" method="POST">
             <div class="form-group">
                 <label for="navn">Navn</label>
@@ -72,7 +67,7 @@
             </div>
             <button type="submit" class="btn btn-custom">Send</button>
         </form>
-    </div>
+</div>
 
     <footer>
         <?php include 'footer.php';?>

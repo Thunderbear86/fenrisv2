@@ -11,7 +11,7 @@
 
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
     <script src="https://kit.fontawesome.com/ef424bfb92.js" crossorigin="anonymous"></script>
 
 
@@ -19,40 +19,22 @@
     <?php
 
 echo '<header>
-    <div class="menu-btn">
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-    </div>
+  <nav class="navbar">
+  <button class="navbar-toggler" type="button">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <nav class="menu">
-      <div class="menu-branding">
-        <div class="portrait"></div>
-      </div>
-      <ul class="menu-nav">
-        <li class="nav-item current">
-          <a href="index.php" class="nav-link">
-            Forside
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="about.php" class="nav-link">
-            Om Mig
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="work.php" class="nav-link">
-            Portfolio
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="kontakt.php" class="nav-link">
-            Kontakt
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>';
+  <div class="menu">
+    <ul class="menu-nav">
+      <li class="nav-item"><a class="nav-link" href="#">Nav Item 1</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Nav Item 2</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Nav Item 3</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Nav Item 4</a></li>
+    </ul>
+  </div>
+</nav>
+
+</header>';
 
 ?>
 

@@ -11,7 +11,7 @@
 
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
     <script src="https://kit.fontawesome.com/ef424bfb92.js" crossorigin="anonymous"></script>
 
 </head>
@@ -19,67 +19,83 @@
 <body>
 
 
-<nav>
-    <?php include 'menu.php';?>
-</nav>
+<div class="container">
+    <div class="row">
+        <nav>
+            <?php include 'menu.php';?>
+        </nav>
+    </div>
+</div>
 
 <main>
-    <h1 class="lg-heading" style="margin-top: 10vh;">
-        Thorbjørn
-        <span class="sec-text">Wagner</span>
-    </h1>
+    <h1 class="lg-heading text-center" style="margin-top: 10vh;">Thorbjørn <span class="sec-text">Wagner</span></h1>
+
     <!-- Icons -->
-
+<div class="text-center">
     <?php include 'ikoner.php';?>
-
+</div>
     <!-- Indhold -->
-    <div class="about-info">
-        <img src="img/portrait_small-01.jpg" alt="Thorbjørn Wagner" class="bio-image">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 pb-3">
+                <div class="card rounded-circle border-3 card-bio">
+                    <img src="img/portrait_small-01.jpg" alt="Thorbjørn Wagner" class="img-fluid rounded-circle border-3 card-bio">
+                </div>
+            </div>
 
-        <div class="bio">
-            <h3 class="sec-text">BIO</h3>
-            <p>
-                <li>Interesser og Erfaring</li>
-                <li>Multimediedesigner</li>
-                <li>Social- & Specialpædagog</li>
-                <li>Eventsikkerhed & Personbeskyttelse</li>
-            </p>
+            <div class="col bio">
+                <h2 class="sec-text">BIO</h2>
+                <ul>
+                    <li>Interesser og Erfaring</li>
+                    <li>Multimediedesigner</li>
+                    <li>Social- & Specialpædagog</li>
+                    <li>Eventsikkerhed & Personbeskyttelse</li>
+                </ul>
+            </div>
+
         </div>
 
-        <div class="job job-1">
-            <h3>Kodning</h3>
-            <h6 class="sec-text">Html - Css - Java</h6>
-            <p>
-                <li>Unik Specialdesignet Hjemmeside</li>
-                <li>Wordpress Hjemmeside</li>
-                <li>Vedligeholdelse & Opdatering</li>
-            </p>
-        </div>
+    </div>
+                <div class="row gx-3 pt-5">
+                    <div class="col-md-4">
+                        <div class="job job-1 py-2 px-3 rounded-bottom border-bottom-3 d-flex flex-column h-100">
+                            <h3>Webdesign</h3>
+                            <ul>
+                                <li>Unik Specialdesignet Hjemmeside</li>
+                                <li>Wordpress Hjemmeside</li>
+                                <li>Vedligeholdelse & Opdatering</li>
+                            </ul>
+                        </div>
+                    </div>
 
-        <div class="job job-2">
-            <h3>Design</h3>
-            <h6 class="sec-text">
-                Grafisk & Digitalt Design
-            </h6>
-            <p>
-                <li>AI Generering</li>
-                <li>Fotokomposition</li>
-                <li>Vector</li>
-                <li>Foto</li>
-            </p>
-        </div>
+                    <div class="col-md-4">
+                        <div class="job job-2 py-2 px-3 rounded-bottom border-bottom-3 d-flex flex-column h-100">
+                            <h3>Grafisk Design</h3>
+                            <ul>
+                                <li>AI Generering</li>
+                                <li>Fotokomposition</li>
+                                <li>Vector</li>
+                                <li>Foto</li>
+                            </ul>
+                        </div>
+                    </div>
 
-        <div class="job job-3">
-            <h3>SoMe</h3>
-            <h6 class="sec-text">Marketing & Branding</h6>
-            <p>
-                <li>Mock-Ups</li>
-                <li>Strategi</li>
-                <li>Kampagner</li>
-            </p>
-        </div>
+                    <div class="col-md-4">
+                        <div class="job job-3 py-2 px-3 rounded-bottom border-bottom-3 d-flex flex-column h-100">
+                            <h3>Foto</h3>
+                            <ul>
+                                <li>Klassisk</li>
+                                <li>Alternativ</li>
+                                <li>Kunst</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
     </div>
 
+<footer class="pt-3">
+    <?php include 'footer.php';?>
+</footer>
 
 </main>
 
