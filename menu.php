@@ -19,20 +19,40 @@
     <?php
 
 echo '<header>
-  <nav class="navbar">
-  <button class="navbar-toggler" type="button">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+    
 
-  <div class="menu">
-    <ul class="menu-nav">
-      <li class="nav-item"><a class="nav-link" href="#">Nav Item 1</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">Nav Item 2</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">Nav Item 3</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">Nav Item 4</a></li>
-    </ul>
-  </div>
-</nav>
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item current">
+          <a href="index.php" class="nav-link">
+            Forside
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="about.php" class="nav-link">
+            Om Mig
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="work.php" class="nav-link">
+            Portfolio
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="kontakt.php" class="nav-link">
+            Kontakt
+          </a>
+        </li>
+      </ul>
+    </nav>
 
 </header>';
 
