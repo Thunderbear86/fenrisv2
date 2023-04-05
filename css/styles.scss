@@ -26,7 +26,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 
 @import "bootstrapComponents";
-
+@import "menu";
 
 
 // 5. Du kan lave styling her...
@@ -38,13 +38,14 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	border-radius: 50%;
 	border-color: $third;
 	min-width: 50%;
+	z-index: 1;
 }
 
 .card {
 	border-color: $third;
 }
 
-//main
+//MAIN
 
 main {
 	min-height: calc(100vh - 60px); }
@@ -109,8 +110,7 @@ h1 {
 	transition: all 0.5s ease-out;
 }
 
-// menu
-// Menu
+// MENU
 
 .menu-btn {
 	position: absolute;
@@ -212,6 +212,7 @@ h1 {
 .bio-image {
 	max-width: 100%;
 	height: auto;
+	z-index: 1;
 }
 
 .bio {
