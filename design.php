@@ -130,7 +130,7 @@
             />
 
             <img
-                src="img/Fabeldyr%20bæltedyr-01.png"
+                src="img/fb.png"
                 class="w-100 shadow-1-strong rounded mb-4"
                 alt="Bæltedyr"
             />

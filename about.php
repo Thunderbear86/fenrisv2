@@ -118,7 +118,6 @@
                                 <li>Cosplay</li>
                                     <p class="fw-light pt-1">Begrebet udklædning gør er ikke i nærheden af, hvad cosplay indeholder.
                                     Indtag en persona, lev dig ind i rollen for en stund og få et eventyrligt produkt retur.</p>
-
                             </ul>
                         </div>
                     </div>
