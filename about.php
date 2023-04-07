@@ -75,7 +75,7 @@
                                     <p class="fw-light pt-1">Hjemmesiden er hurtigere at bygge, da den er opbygget af blokelementer.
                                     Efterfølgende er det nemmere selv at vedligeholde.</p>
                                 <li>Vedligeholdelse & Opdatering</li>
-                                    <p class="fw-light pt-1">Du får hjælp til at opadtere, opgradere,
+                                    <p class="fw-light pt-1">Du får hjælp til at opdatere, opgradere,
                                     re-designe eller generel vedligeholdelse af din hjemmeside.</p>
                             </ul>
                         </div>
@@ -92,7 +92,7 @@
                                     <p class="fw-light pt-1">Midjourney er en af de store spillere, hvor der med efterbehandling, kan skabes fantastiske billeder.
                                     Jeg har været med fra beta-test og udvider løbende mine evner i AI generering.</p>
                                 <li>Billedekomposition</li>
-                                    <p class="fw-light pt-1">Kunsten i, at sammensætte forskellige billeder og skab en fornemmelse af, at de altid har hørt sammen.</p>
+                                    <p class="fw-light pt-1">Kunsten i, at sammensætte forskellige billeder og skabe en fornemmelse af, at de altid har hørt sammen.</p>
                                 <li>Vector</li>
                                     <p class="fw-light pt-1">Grafisk design rummer alt fra logo til kreation af figurer. Alt er tegnet digitalt i hånden og
                                         giver mulighed for gennemgribende ændringer, på ingen tid.</p>
@@ -107,7 +107,7 @@
                         <div class="job job-3 py-2 px-3 rounded-bottom border-bottom-3 d-flex flex-column h-100">
                             <h3>Fotografering</h3>
                             <ul>
-                                <li>Produk</li>
+                                <li>Produktfotografering</li>
                                     <p class="fw-light pt-1">Fotografering af produkter til din hjemmeside, app eller markedsføring.</p>
                                 <li>Portræt</li>
                                     <p class="fw-light pt-1">Portrætfotografering kan deles op i to: </p>

@@ -37,7 +37,7 @@
     <div class="contaier">
         <div class="row">
             <h2 class="sec-text text-center">
-Relevant tekst her
+
             </h2>
         </div>
     </div>
