@@ -113,8 +113,6 @@
                                     <p class="fw-light pt-1">Portrætfotografering kan deles op i to: </p>
                                     <p class="fw-light pt-1">Fotografering af medarbejdere, til hjemmeside eller intern brug.</p>
                                     <p class="fw-light pt-1">Kreativ portrætfotografering.</p>
-                                <li>Boudoir</li>
-                                    <p class="fw-light pt-1">Kunsten i, at fange et intimt og personligt øjeblik - krydret med en følelse af længsel, passion eller begær</p>
                                 <li>Cosplay</li>
                                     <p class="fw-light pt-1">Begrebet udklædning gør er ikke i nærheden af, hvad cosplay indeholder.
                                     Indtag en persona, lev dig ind i rollen for en stund og få et eventyrligt produkt retur.</p>
