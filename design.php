@@ -37,7 +37,7 @@
 
 
     <h2 class="mb-4 plink text-center">
-        \\ <a href="Kodning.php" class="plink">Kodning</a> \\<a href="design.php" class="plink"> <span class="sec-text">Design</span></a> \\ <a href="foto.php" class="plink">Foto</a> \\
+        \\ <a href="Kodning.php" class="plink">Webdesign</a> \\<a href="design.php" class="plink"> <span class="sec-text">Grafisk Design</span></a> \\ <a href="foto.php" class="plink">Foto Redigering</a> \\
     </h2>
 
     <div class="text-center">

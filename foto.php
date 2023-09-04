@@ -33,7 +33,7 @@
         <span class="sec-text">Kampagner</span>
     </h1>
     <h2 class="mb-4 plink text-center">
-        \\<a href="Kodning.php" class="plink"> Kodning </a>\\<a href="design.php" class="plink"> Design</a> \\ <a href="foto.php" class="plink"><span class="sec-text">Foto</span></a> \\
+        \\<a href="Kodning.php" class="plink"> Webdesign </a>\\<a href="design.php" class="plink"> Grafisk Design</a> \\ <a href="foto.php" class="plink"><span class="sec-text">Foto Redigering</span></a> \\
     </h2>
 
     <div class="text-center">

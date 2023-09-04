@@ -33,17 +33,20 @@
         <span class="sec-text">Referencer</span>
     </h1>
     <h2 class="mb-4 plink text-center">
-        \\<a href="Kodning.php" class="plink"><span class="sec-text"> Kodning </span></a>\\<a href="design.php" class="plink"> Design</a> \\ <a href="foto.php" class="plink">Foto</a> \\
+        \\<a href="Kodning.php" class="plink"><span class="sec-text"> Webdesign </span></a>\\<a href="design.php" class="plink"> Grafisk Design</a> \\ <a href="foto.php" class="plink">Foto Redigering</a> \\
     </h2>
 
     <div class="text-center">
         <?php include 'ikoner.php';?>
     </div>
 
+    <div class="container">
+
     <div class="projects">
+
         <div>
-            <a href="www.fenris.dk">
-                <img src="img/kodning/fenris.png" alt="Project">
+            <a href="https://www.fenris.dk">
+                <img class="kodning-img" src="img/kodning/fenris.png" alt="Fenris Portfolio">
             </a>
             <a href="#" class="btn-light">
                 <i class="fas fa-eye"></i> Se Mere
@@ -52,9 +55,10 @@
                 <i class="fab fa-github"></i> Github
             </a>
         </div>
+
         <div class="item">
-            <a href="#!">
-                <img src="img/kodning/test.png" alt="Project">
+            <a href="https://westergaardbech.dk/">
+                <img class="kodning-img" src="img/kodning/WB.png" alt="Westergaard & Bech socialkonsulenter">
             </a>
             <a href="#" class="btn-light">
                 <i class="fas fa-eye"></i> Se Mere
@@ -63,28 +67,44 @@
                 <i class="fab fa-github"></i> Github
             </a>
         </div>
+
         <div class="item">
-            <a href="#!">
-                <img src="img/kodning/test.png" alt="Project">
+            <a href="#Frirum">
+                <img class="kodning-img" src="img/kodning/frirum.png" alt="Frirum Hjemmeside">
             </a>
             <a href="#" class="btn-light">
                 <i class="fas fa-eye"></i> Se Mere
             </a>
-            <a href="#" class="btn-dark">
+            <a href="https://github.com/Thunderbear86/frirumv2" class="btn-dark">
                 <i class="fab fa-github"></i> Github
             </a>
         </div>
+
         <div class="item">
-            <a href="#!">
-                <img src="img/kodning/test.png" alt="Project">
+            <a href="#DigiSwap">
+                <img src="img/kodning/digiswap.png" alt="DigiSwap hjemmeside">
             </a>
             <a href="#" class="btn-light">
                 <i class="fas fa-eye"></i> Se Mere
             </a>
+            <a href="https://github.com/Thunderbear86/22e1bThorbjoern" class="btn-dark">
+                <i class="fab fa-github"></i> Github
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="#VilmaFilmFEstival">
+                <img src="img/kodning/vilma.png" alt="FilmFestival Vilma hjemmeside">
+            </a>
+            <a href="#" class="btn-light">
+                <i class="fas fa-eye"></i> Se Mere
+            </a>
+
             <a href="#" class="btn-dark">
                 <i class="fab fa-github"></i> Github
             </a>
         </div>
+
         <div class="item">
             <a href="#!">
                 <img src="img/kodning/test.png" alt="Project">
@@ -98,7 +118,7 @@
             </a>
         </div>
     </div>
-
+    </div>
 
     <footer>
         <?php include 'footer.php';?>
