@@ -96,7 +96,7 @@
             <a href="#VilmaFilmFEstival">
                 <img src="img/kodning/vilma.png" alt="FilmFestival Vilma hjemmeside">
             </a>
-            <a href="#" class="btn-light">
+            <a href="https://github.com/Thunderbear86/vilmav3" class="btn-light">
                 <i class="fas fa-eye"></i> Se Mere
             </a>
 
@@ -106,8 +106,8 @@
         </div>
 
         <div class="item">
-            <a href="#!">
-                <img src="img/kodning/test.png" alt="Project">
+            <a href="https://www.metaperspektiv.dk">
+                <img src="img/kodning/metap.png" alt="MetaPerspektiv Hjemmeside">
             </a>
             <a href="#" class="btn-light">
                 <i class="fas fa-eye"></i> Se Mere
