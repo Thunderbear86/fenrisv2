@@ -55,31 +55,31 @@
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
 
             <img
-                src="img/port/viking.png"
+                src="img/port/vector/car1.jpg"
                 class="w-100 shadow-1-strong rounded mb-4"
                 alt="viking"
             />
 
             <img
-                src="img/car/car3.png"
+                src="img/port/vector/car2.png"
                 class="w-100 shadow-1-strong rounded mb-4"
                 alt="AI Wolf 1"
             />
 
             <img
-                src="img/bg3.png"
+                src="img/port/vector/tof14.jpg"
                 class="w-100 shadow-1-strong rounded mb-4"
                 alt="AI Wolf 2"
             />
 
             <img
-                src="img/port/op.png"
+                src="img/port/vector/t2.png"
                 class="w-100 shadow-1-strong rounded mb-4"
                 alt="RL Onix"
             />
 
             <img
-                src="img/port/sp.png"
+                src="img/port/vector/Plakat1.jpg"
                 class="w-100 shadow-1-strong rounded mb-4"
                 alt="Skelet Portal"
             />
@@ -92,25 +92,25 @@
         <div class="col-lg-4 mb-4 mb-lg-0">
 
             <img
-                src="img/port/Plakat1.jpg"
+                src="img/port/vector/svamp.png"
                 class="w-100 shadow-1-strong rounded mb-4"
                 alt="Plakat"
             />
 
             <img
-                src="img/car/car1.jpg"
+                src="img/port/vector/pr.jpg"
                 class="w-100 shadow-1-strong rounded mb-4"
                 alt="Lady In Pink"
             />
 
             <img
-                src="img/port/t2.png"
+                src="img/port/vector/hotdogs-01.png"
                 class="w-100 shadow-1-strong rounded mb-4"
                 alt="Tounge out 2"
             />
 
             <img
-                src="img/port/tof14.jpg"
+                src="img/port/vector"
                 class="w-100 shadow-1-strong rounded mb-4"
                 alt="Tounge out"
             />
