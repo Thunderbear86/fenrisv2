@@ -51,110 +51,116 @@
 
     <!-- Gallery -->
     <div class="row">
-        <!-- 1 AI & Foto -->
+        <!-- Vector 1 -->
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
 
             <img
                 src="img/port/vector/car1.jpg"
                 class="w-100 shadow-1-strong rounded mb-4"
-                alt="viking"
+                alt="lady in pink"
             />
 
             <img
                 src="img/port/vector/car2.png"
                 class="w-100 shadow-1-strong rounded mb-4"
-                alt="AI Wolf 1"
+                alt="warrior"
             />
 
             <img
                 src="img/port/vector/tof14.jpg"
                 class="w-100 shadow-1-strong rounded mb-4"
-                alt="AI Wolf 2"
+                alt="tounge out black"
             />
 
             <img
                 src="img/port/vector/t2.png"
                 class="w-100 shadow-1-strong rounded mb-4"
-                alt="RL Onix"
+                alt="tounge out"
             />
 
             <img
                 src="img/port/vector/Plakat1.jpg"
                 class="w-100 shadow-1-strong rounded mb-4"
-                alt="Skelet Portal"
+                alt="plakat"
             />
 
 
         </div>
 
-        <!-- 2 vector realisme -->
+        <!-- 2 vector  -->
 
         <div class="col-lg-4 mb-4 mb-lg-0">
 
             <img
                 src="img/port/vector/svamp.png"
                 class="w-100 shadow-1-strong rounded mb-4"
-                alt="Plakat"
+                alt="svampe app"
             />
 
             <img
                 src="img/port/vector/pr.jpg"
                 class="w-100 shadow-1-strong rounded mb-4"
-                alt="Lady In Pink"
+                alt="Pickle rick"
             />
 
             <img
                 src="img/port/vector/hotdogs-01.png"
                 class="w-100 shadow-1-strong rounded mb-4"
-                alt="Tounge out 2"
+                alt="hotdogs"
             />
 
             <img
-                src="img/port/vector"
+                src="img/port/vector/fb.png"
                 class="w-100 shadow-1-strong rounded mb-4"
-                alt="Tounge out"
+                alt="bæltedyr"
             />
 
             <img
-                src="img/car/car2.png"
+                src="img/port/vector/drage.jpg"
                 class="w-100 shadow-1-strong rounded mb-4"
-                alt="Strongman Warrior"
+                alt="drage"
             />
 
         </div>
 
-        <!-- 3 vector cartoon -->
+        <!-- 3 vector  -->
 
         <div class="col-lg-4 mb-4 mb-lg-0">
 
             <img
-                src="img/Pickle Rick-01.jpg"
+                src="img/port/vector/WBlogo.jpg"
                 class="w-100 shadow-1-strong rounded mb-4"
-                alt="Pickle Rick"
+                alt="WB logo"
             />
 
             <img
-                src="img/fb.png"
+                src="img/port/vector/vilma24.png"
                 class="w-100 shadow-1-strong rounded mb-4"
-                alt="Bæltedyr"
+                alt="vilma FF logo"
             />
 
             <img
-                src="img/opgave%2021%2011%2022-01.jpg"
+                src="img/port/vector/friggfrej.png"
                 class="w-100 shadow-1-strong rounded mb-4"
-                alt="Drage"
+                alt="ff logo"
             />
 
             <img
-                src="img/port/sword.png"
+                src="img/port/vector/p4.jpg"
                 class="w-100 shadow-1-strong rounded mb-4"
-                alt="Sværd"
+                alt="bølger"
             />
 
             <img
-                src="img/hotdogs-01.png"
+                src="img/port/vector/km.png"
                 class="w-100 shadow-1-strong rounded mb-4"
-                alt="Hotdogs"
+                alt="klistermærker"
+            />
+
+            <img
+                src="img/port/vector/sword.png"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="sværd og skjold"
             />
 
         </div>
