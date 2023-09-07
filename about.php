@@ -45,18 +45,37 @@
 
             <div class="col bio">
                 <ul>
-                    <h2 class="sec-text">En alsidig generalist</h2>
-                    <p class="fw-light">Som autodidaktisk generalist, har jeg nu fundet mig tilrette i en
-                        verden af <span class="fw-bold">design</span> og <span class="fw-bold">udvikling</span>.</p>
+                    <h2 class="sec-text">Innovativ <span class="fw-bold">multimediedesigner</span></h2>
 
+                    <p class="fw-light">Jeg er drevet af en passion for <span class="fw-bold">design</span> og <span class="fw-bold">udvikling</span>,
+                        som jeg kombinerer med min evne til at være  <span class="fw-bold">løsningsorienteret</span>. </p>
+
+                    <p>Som autodidakt kaster jeg mig jævnligt ud i nye udfordringer og programmer. </p>
+
+                    <p>Jeg går med en drøm om, at udvikle og designe app's og systemer, som kan gøre hverdagen nemmere for den enkelte bruger.</p>
+
+
+                    <p class="fw-light">Min viden og praksiserfaring fra diverse brancher, såsom event,
+                        personbeskyttelse samt social- og specialpædagogik, giver mig muligheden for, at se muligheder i, hvordan teknologi kan
+                        gøre en forskel for mennesker.</p>
                     <br>
 
-                    <p class="fw-light">Med viden og praksiserfaring fra diverse brancher, såsom event,
-                        personbeskyttelse samt social- og specialpædagogik, er jeg en alsidig aspirerende <span class="fw-bold">multimediedesigner</span>.</p>
+                    <h3 class="sec-text">Jeg <span class="fw-bold">brænder</span> for at udvikle mig indenfor:</h3>
 
-                    <br>
+                    <ul>
+                        <li>HTML - CSS - Javascript</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>AI prompting</li>
+                        <li>Adobe</li>
+                        <li>SEO</li>
+                        <li>Branding</li>
+                        <li>Design</li>
+                        <li>Udvikling</li>
 
-                    <p class="fw-light">Min største styrke er min evne til at finde <span class="fw-bold">løsninger</span>, ofte med en innovativ tilgang til opgaven.</p>
+                    </ul>
+
+
                 </ul>
             </div>
 
@@ -67,7 +86,6 @@
                     <div class="col-md-4">
                         <div class="job job-1 py-2 px-3 rounded-bottom border-bottom-3 d-flex flex-column h-100">
                             <h3>Webdesign</h3>
-                            <h4 class="sec-text">Dit behov - Dit valg</h4>
                             <ul>
                                 <li>En unik specialdesignet hjemmeside</li>
                                     <p class="fw-light pt-1">Hvilket betyder fuld kontrol over alle elementer, kodet fra første linje.</p>
@@ -77,6 +95,8 @@
                                 <li>Vedligeholdelse & Opdatering</li>
                                     <p class="fw-light pt-1">Du får hjælp til at opdatere, opgradere,
                                     re-designe eller generel vedligeholdelse af din hjemmeside.</p>
+                                <li>SEO og Tekst</li>
+                                    <p class="fw-light pt-1">Skarpe tekster og specifikt udvalgte søgeord får din hjemmesides trafik op.</p>
                             </ul>
                         </div>
                     </div>
@@ -105,17 +125,22 @@
 
                     <div class="col-md-4">
                         <div class="job job-3 py-2 px-3 rounded-bottom border-bottom-3 d-flex flex-column h-100">
-                            <h3>Fotografering</h3>
+                            <h3>Branding</h3>
                             <ul>
-                                <li>Produktfotografering</li>
-                                    <p class="fw-light pt-1">Fotografering af produkter til din hjemmeside, app eller markedsføring.</p>
-                                <li>Portræt</li>
-                                    <p class="fw-light pt-1">Portrætfotografering kan deles op i to: </p>
-                                    <p class="fw-light pt-1">Fotografering af medarbejdere, til hjemmeside eller intern brug.</p>
-                                    <p class="fw-light pt-1">Kreativ portrætfotografering.</p>
-                                <li>Cosplay</li>
-                                    <p class="fw-light pt-1">Begrebet udklædning gør er ikke i nærheden af, hvad cosplay indeholder.
-                                    Indtag en persona, lev dig ind i rollen for en stund og få et eventyrligt produkt retur.</p>
+                                <li>Bæredygtig profil</li>
+                                    <p class="fw-light pt-1">Er din virksomhed med til at tage ansvar?</p>
+                                        <p> Med fokus på miljø, social bæredygtighed og ledelse, skaber vi en bæredygtig profil.</p>
+
+                                <li>Målgruppe</li>
+                                    <p class="fw-light pt-1">Ud fra en grundig segmentering sporer vi os ind på din optimale målgruppe.</p>
+                                    <p class="fw-light">Positionering hjælper din virksomhed med, at åbne for en potentielt ubenyttet markedsandel.</p>
+                                    <p class="fw-light">Hvilke strategier er relevante at anvende og hvordan udførers planlægning optimalt.</p>
+
+                                <li>SoMe</li>
+                                    <p class="fw-light">Identitetsdannelse på de sociale medier - hvad står vi for og hvem er vi?</p>
+                                    <p class="fw-light">Kampagner - hvordan skaber vi awareness omkring os?</p>
+                                    <p class="fw-light">Content creation - giv din profil et løft med det rette indhold!</p>
+                                    <p class="fw-light">Byg en base - hvordan engagerer vi din målgruppe?</p>
                             </ul>
                         </div>
                     </div>
