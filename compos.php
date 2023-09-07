@@ -51,111 +51,50 @@
 
     <!-- Gallery -->
     <div class="row">
-        <!-- 1 AI & Foto -->
+        <!-- 1 compos -->
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
 
             <img
-                src="img/port/viking.png"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="viking"
-            />
-
-            <img
-                src="img/car/car3.png"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="AI Wolf 1"
-            />
-
-            <img
-                src="img/bg3.png"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="AI Wolf 2"
-            />
-
-            <img
-                src="img/port/op.png"
+                src="img/port/compos/op.png"
                 class="w-100 shadow-1-strong rounded mb-4"
                 alt="RL Onix"
             />
 
-            <img
-                src="img/port/sp.png"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Skelet Portal"
-            />
+
+
+
 
 
         </div>
 
-        <!-- 2 vector realisme -->
+        <!-- 2 compos -->
 
         <div class="col-lg-4 mb-4 mb-lg-0">
 
             <img
-                src="img/port/Plakat1.jpg"
+                src="img/port/compos/turt.jpg"
                 class="w-100 shadow-1-strong rounded mb-4"
                 alt="Plakat"
             />
 
             <img
-                src="img/car/car1.jpg"
+                src="img/port/compos/ship.jpg"
                 class="w-100 shadow-1-strong rounded mb-4"
                 alt="Lady In Pink"
             />
 
-            <img
-                src="img/port/t2.png"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Tounge out 2"
-            />
-
-            <img
-                src="img/port/tof14.jpg"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Tounge out"
-            />
-
-            <img
-                src="img/car/car2.png"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Strongman Warrior"
-            />
-
         </div>
 
-        <!-- 3 vector cartoon -->
+        <!-- 3 compos  -->
 
         <div class="col-lg-4 mb-4 mb-lg-0">
 
             <img
-                src="img/Pickle Rick-01.jpg"
+                src="img/port/compos/sp.png"
                 class="w-100 shadow-1-strong rounded mb-4"
                 alt="Pickle Rick"
             />
 
-            <img
-                src="img/fb.png"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Bæltedyr"
-            />
-
-            <img
-                src="img/opgave%2021%2011%2022-01.jpg"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Drage"
-            />
-
-            <img
-                src="img/port/sword.png"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Sværd"
-            />
-
-            <img
-                src="img/hotdogs-01.png"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Hotdogs"
-            />
 
         </div>
 

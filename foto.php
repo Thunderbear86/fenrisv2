@@ -52,6 +52,12 @@
                     alt="Rouge"
             />
 
+            <img
+                    src="img/foto/apple.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="pige med æble"
+            />
+
         </div>
 
         <!-- Række 2 -->
