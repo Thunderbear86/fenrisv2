@@ -41,7 +41,7 @@
     </h2>
 
     <h3 class="mb-4 plink text-center">
-        \\ <a href="vector.php" class="plink">Vector</a> \\<a href="compos.php" class="plink"><span class="sec-text">Koposition</span></a> \\ <a href="ai.php" class="plink">AI</a> \\
+        \\ <a href="vector.php" class="plink">Vector</a> \\<a href="compos.php" class="plink"><span class="sec-text">Komposition</span></a> \\ <a href="ai.php" class="plink">AI</a> \\
     </h3>
 
     <div class="text-center">
