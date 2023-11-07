@@ -37,7 +37,7 @@
 
 
     <h2 class="mb-4 plink text-center">
-        \\ <a href="Kodning.php" class="plink">Kodning</a> \\<a href="design.php" class="plink"> <span class="sec-text">Design</span></a> \\ <a href="foto.php" class="plink">Foto</a> \\
+        \\ <a href="Kodning.php" class="plink">Webdesign</a> \\<a href="design.php" class="plink"> <span class="sec-text">Grafisk Design</span></a> \\ <a href="foto.php" class="plink">Foto Redigering</a> \\
     </h2>
 
     <div class="text-center">
@@ -45,115 +45,53 @@
     </div>
 
 
-    <!-- Gallery -->
-    <div class="row">
-        <!-- 1 AI & Foto -->
-        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <!-- Portfolio Tiles -->
 
-            <img
-                src="img/port/viking.png"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="viking"
-            />
-
-            <img
-                src="img/car/car3.png"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="AI Wolf 1"
-            />
-
-            <img
-                src="img/bg3.png"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="AI Wolf 2"
-            />
-
-            <img
-                src="img/port/op.png"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="RL Onix"
-            />
-
-            <img
-                src="img/port/sp.png"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Skelet Portal"
-            />
-
-
+    <div class="container mt-5">
+        <div class="row mx-3">
+            <div class="col-sm-4">
+                <div class="tile mb-4 rounded-circle">
+                    <a href="vector.php">
+                        <div class="tile-image">
+                            <img src="img/port/vector/car1.jpg" alt="Vector" class="img-fluid">
+                            <div class="tile-text">
+                                <h3>Vector</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="tile mb-4 rounded-circle">
+                    <a href="compos.php">
+                        <div class="tile-image">
+                            <img src="img/port/compos/op.png" alt="Komposition" class="img-fluid">
+                            <div class="tile-text">
+                                <h3>Komposition</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="tile mb-4 rounded-circle">
+                    <a href="ai.php">
+                        <div class="tile-image">
+                            <img src="img/port/ai/viking.png" alt="AI" class="img-fluid">
+                            <div class="tile-text">
+                                <h3>AI</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
+    </div>
 
-        <!-- 2 vector realisme -->
 
-        <div class="col-lg-4 mb-4 mb-lg-0">
 
-            <img
-                src="img/port/Plakat1.jpg"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Plakat"
-            />
 
-            <img
-                src="img/car/car1.jpg"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Lady In Pink"
-            />
-
-            <img
-                src="img/port/t2.png"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Tounge out 2"
-            />
-
-            <img
-                src="img/port/tof14.jpg"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Tounge out"
-            />
-
-            <img
-                src="img/car/car2.png"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Strongman Warrior"
-            />
-
-        </div>
-
-        <!-- 3 vector cartoon -->
-
-        <div class="col-lg-4 mb-4 mb-lg-0">
-
-            <img
-                src="img/Pickle Rick-01.jpg"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Pickle Rick"
-            />
-
-            <img
-                src="img/fb.png"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Bæltedyr"
-            />
-
-            <img
-                src="img/opgave%2021%2011%2022-01.jpg"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Drage"
-            />
-
-            <img
-                src="img/port/sword.png"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Sværd"
-            />
-
-            <img
-                src="img/hotdogs-01.png"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Hotdogs"
-            />
-
-        </div>
+    </div>
 
 
     </div>
