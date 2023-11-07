@@ -1,33 +1,41 @@
-// Select DOM Items
-const menuBtn = document.querySelector('.menu-btn');
-const menu = document.querySelector('.menu');
-const menuNav = document.querySelector('.menu-nav');
-
-const navItems = document.querySelectorAll('.nav-item');
+//imports
+import { initModalCarousel } from './mc.js';
+import { positionCircleWords, toggleCircleWords } from './kodning.js';
 
 // Set Initial State Of Menu
 let showMenu = false;
 
+// Select DOM Items
+const menuBtn = document.querySelector('.menu-btn');
+const menu = document.querySelector('.menu');
+const menuNav = document.querySelector('.menu-nav');
+const navItems = document.querySelectorAll('.nav-item');
+
+// Event listener for menu button
 menuBtn.addEventListener('click', toggleMenu);
 
+// Function to toggle the menu
 function toggleMenu() {
-    if (!showMenu) {
-        menuBtn.classList.add('close');
-        menu.classList.add('show');
-        menuNav.classList.add('show');
-
-        navItems.forEach(item => item.classList.add('show'));
-
-        // Set Menu State
-        showMenu = true;
-    } else {
-        menuBtn.classList.remove('close');
-        menu.classList.remove('show');
-        menuNav.classList.remove('show');
-
-        navItems.forEach(item => item.classList.remove('show'));
-
-        // Set Menu State
-        showMenu = false;
-    }
+    menuBtn.classList.toggle('close');
+    menu.classList.toggle('show');
+    menuNav.classList.toggle('show');
+    navItems.forEach(item => item.classList.toggle('show'));
+    // Simplified toggle without the need for 'showMenu' boolean
 }
+
+// When DOM is fully loaded, initialize necessary functions
+document.addEventListener('DOMContentLoaded', () => {
+    // Initialize the modal carousel
+    initModalCarousel();
+    positionCircleWords();
+
+    // Get the codingHeadline element
+    const codingHeadline = document.getElementById('codingHeadline');
+
+    // Check if the element exists before adding event listeners
+    if (codingHeadline) {
+        codingHeadline.addEventListener('mouseover', toggleCircleWords);
+        codingHeadline.addEventListener('mouseout', toggleCircleWords);
+    }
+
+});

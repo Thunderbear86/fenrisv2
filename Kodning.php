@@ -48,23 +48,23 @@
             <a href="#" class="btn-light">
                 <i class="fas fa-eye"></i> Se Mere
             </a>
-            <a href="https://github.com/Thunderbear86/fenrisv2.git" class="btn-dark">
+            <a href="https://github.com/Thunderbear86/fenrisv2" class="btn-dark">
                 <i class="fab fa-github"></i> Github
             </a>
         </div>
         <div class="item">
-            <a href="#!">
+            <a href="www.metaperspektiv.dk">
                 <img src="img/kodning/test.png" alt="Project">
             </a>
             <a href="#" class="btn-light">
                 <i class="fas fa-eye"></i> Se Mere
             </a>
-            <a href="#" class="btn-dark">
+            <a href="https://github.com/Thunderbear86/mp" class="btn-dark">
                 <i class="fab fa-github"></i> Github
             </a>
         </div>
         <div class="item">
-            <a href="#!">
+            <a href="www.westergaardbech.dk">
                 <img src="img/kodning/test.png" alt="Project">
             </a>
             <a href="#" class="btn-light">

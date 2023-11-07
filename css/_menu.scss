@@ -4,7 +4,7 @@
   width: 100%;
   opacity: 0.9;
   visibility: hidden;
-  z-index:2;
+  z-index: 2;
 
   &.show {
     visibility: visible;
@@ -16,28 +16,26 @@
     align-items: center;
     justify-content: center;
     float: left;
-    width: 100%;
+    width: 25%; // Default width for large screens
     height: 100vh;
     overflow: hidden;
     margin: 0;
     padding: 0;
     background: darken($Dblack, 5);
     list-style: none;
-    transform: translate3d(0, -100%, 0);
-    //@include easeOut;//
+    transform: translate3d(100%, 0, 0); // Starts off-screen
+    transition: transform 0.3s ease-out; // Smooth transition for sliding in
 
     &.show {
-      // Slide in from top
-      transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0); // Slides in from left
     }
   }
 
   .nav-item {
     transform: translate3d(600px, 0, 0);
-    //@include easeOut;
+    transition: transform 0.3s ease-out; // Smooth transition for sliding in
 
     &.show {
-      // Slide in from right
       transform: translate3d(0, 0, 0);
     }
 
@@ -55,10 +53,22 @@
     font-weight: 300;
     color: set-text-color($Dblack);
     text-decoration: none;
-    //@include easeOut;
+    transition: color 0.3s ease-out;
 
     &:hover {
       color: $third;
+    }
+  }
+}
+
+// Media query for small screens
+@media (max-width: 768px) {
+  .menu-nav {
+    width: 100%; // Full width for small screens
+    transform: translate3d(100%, 0, 0); // Adjust if you want it to start off-screen
+
+    &.show {
+      transform: translate3d(0, 0, 0); // Fullscreen when active
     }
   }
 }
@@ -68,4 +78,28 @@
   .nav-item:nth-child(#{$x}) {
     transition-delay: $x * 0.1s;
   }
+}
+
+// modal
+// styles.scss
+.modal-img {
+  display: flex !important;
+  align-items: center; // Vertically center the modal
+  justify-content: center; // Horizontally center the modal
+}
+
+.modal-dialog {
+  margin-top: 100px; // Adjust this value to move the modal down
+  margin-left: auto;
+  margin-right: auto;
+  // Add additional styling for the modal here if necessary
+}
+
+// This will place the headline over the modal, adjust as necessary
+.modal-headline {
+  text-align: left; // Align text to the left
+  position: absolute;
+  top: 80px; // Distance from the top, adjust as needed
+  left: 15%; // Distance from the left, adjust as needed
+  width: 70%; // Width of the headline container, adjust as needed
 }
