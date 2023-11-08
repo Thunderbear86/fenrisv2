@@ -1,23 +1,14 @@
 // mc.js
-function initModalCarousel() {
-    var modal = document.getElementById('myModal');
-    var btn = document.getElementById('myImg');
-    var span = document.getElementsByClassName('close')[0];
+function initModalCarousels() {
+    // Initialize any carousels
+    var designCarousel = new bootstrap.Carousel(document.getElementById('designCarousel'));
+    var aiCarousel = new bootstrap.Carousel(document.getElementById('aiControls'));
+    var kodningCarousel = new bootstrap.Carousel(document.getElementById('kodningControls'));
 
-    btn.onclick = function() {
-        modal.style.display = 'block';
-    }
-
-    span.onclick = function() {
-        modal.style.display = 'none';
-    }
-
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = 'none';
-        }
-    }
+    // Optional: Add any custom event listeners or additional JavaScript for the modals here
 }
 
+// This function will run when the document is ready, ensuring that Bootstrap's JS is loaded
+document.addEventListener('DOMContentLoaded', initModalCarousels);
 // Export the init function
-export { initModalCarousel };
+export { initModalCarousels as initModalCarousel };

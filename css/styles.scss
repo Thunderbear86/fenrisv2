@@ -423,28 +423,40 @@ h1 {
 }
 
 //Cirkel kodning
-
 .circle-container {
 	position: relative;
-	width: 200px;
-	height: 200px;
 	margin: 0 auto;
-	border: 2px solid transparent;
 	border-radius: 50%;
 	margin-bottom: 20px;
+	/* Add transition for the background color */
+	transition: background-color 0.3s ease-in-out;
 }
 
 .circle-word {
+	display: none;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	opacity: 0;
-	transition: opacity 1s, transform 1s;
-	color: white;
+	transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+	color: $third; /* You can change the color if you like */
+	/* ensure the words are visible above the background */
+	z-index: 2;
+}
+
+.circle-word.active {
+	display: block;
 }
 
 .circle-container:hover .circle-word {
 	opacity: 1;
 	transform: translate(-50%, -50%) scale(1.2);
+}
+
+/* This will add a background when any .circle-word is active */
+.circle-container:hover {
+	background-color: rgba(0, 0, 0, 0.6); /* Adjust the background color and opacity as needed */
+	/* ease-in-out effect for the background */
+	transition: background-color 0.3s ease-in-out;
 }

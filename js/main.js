@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Check if the element exists before adding event listeners
     if (codingHeadline) {
-        codingHeadline.addEventListener('mouseover', toggleCircleWords);
-        codingHeadline.addEventListener('mouseout', toggleCircleWords);
+        codingHeadline.addEventListener('mouseover', () => toggleCircleWords(true));
+        codingHeadline.addEventListener('mouseout', () => toggleCircleWords(false));
     }
 
 });
