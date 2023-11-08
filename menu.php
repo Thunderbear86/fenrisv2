@@ -37,17 +37,17 @@ echo '<header>
           </a>
         </li>
         <li class="nav-item">
-          <a href="about.php" class="nav-link">
+          <a href="#om" class="nav-link">
             Om Mig
           </a>
         </li>
         <li class="nav-item">
-          <a href="work.php" class="nav-link">
+          <a href="#portfolio" class="nav-link">
             Portfolio
           </a>
         </li>
         <li class="nav-item">
-          <a href="kontakt.php" class="nav-link">
+          <a href="#contact" class="nav-link">
             Kontakt
           </a>
         </li>
